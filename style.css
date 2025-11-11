@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(12, 12, 12);
+}
+
+h1 {
+    color: rgb(231, 238, 245);
+
+}
+
+.a {
+    background-color: rgb(255, 0, 0);
+}
+
+.b {
+    background-color: rgb(139, 0, 0);
+}
+
+.c {
+    background-color: rgb(220, 20, 60);
+}
+
+.d {
+    background-color: rgb(205, 92, 92);
+}
+
+.e {
+    background-color: rgb(240, 128, 128);
+}
+
+.f {
+    background-color: rgb(250, 128, 114);
+}
+
+.g {
+    background-color: rgb(250, 128, 114);
+}
+
+.h {
+    background-color: rgb(255, 99, 71);
+}
