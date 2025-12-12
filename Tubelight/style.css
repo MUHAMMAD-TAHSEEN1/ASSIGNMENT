@@ -1,0 +1,33 @@
+body{
+margin:0;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:#111;
+}
+
+
+/* tube body */
+.tube{
+width:400px;
+height:20px;
+background:#f5f5f5;
+border-radius:20px;
+box-shadow: 0 0 20px #fff, 0 0 40px #fff;
+}
+
+
+/* holders */
+.holder{
+width:20px;
+height:30px;
+background:#666;
+position:absolute;
+top:50%;
+transform:translateY(-50%);
+}
+
+
+.left{ left:calc(50% - 220px); }
+.right{ left:calc(50% + 200px); }
