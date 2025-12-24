@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    
+}
+.circle{
+    position: absolute;
+    display: flex;
+    border: solid;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    margin-top: 100px;
+    animation-name: myAnimation;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+@keyframes myAnimation{
+0%{background-color: blue;left:-10%;}
+25%{background-color: red;left: 25%;}
+50%{background-color: yellow;left: 50%;}
+100%{background-color: green;left: 100%;}
+
+}
